@@ -1,8 +1,9 @@
 function Post(props) {
-    console.log(props);
-
     return (
-        <p>Post</p>
+        <div>
+            <strong>{props.author}</strong>
+            <p>{props.content}</p>
+        </div>
     )
 }
 
